@@ -1,0 +1,17 @@
+.cards {
+    width: 24%;
+    margin: 5px;
+}
+
+.flex-container { 
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin: 0 10px;
+}
+
+.add-button {
+    text-align: right;
+    margin: 10px 30px;
+    margin-top: 15px;
+}

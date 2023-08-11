@@ -1,0 +1,55 @@
+.topnav {
+    overflow: hidden;
+    background-color: ghostwhite;
+    margin-bottom: 15px;
+    height: 80px;
+  }
+  
+  .topnav a {
+    float: left;
+    color: #171212;
+    text-align: center;
+    padding: 27px 20px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+  
+  .topnav-right {
+    float: right;
+    height: 0;
+  }
+
+  .account-icon {
+    padding: 0 !important;
+  } 
+
+  [data-initials]:before {
+    background: black;
+    color: white;
+    opacity: 1;
+    content: attr(data-initials);
+    display: inline-block;
+    font-weight: lighter;
+    border-radius: 50%;
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+    margin: 15px 18px 15px 20px;
+    text-align: center;
+    font-size: x-large;
+    padding-top: 6px;
+  }
+
+  a.menu {
+    padding: 27px 30px;
+  }
